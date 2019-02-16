@@ -1,0 +1,29 @@
+데이터베이스에 content_name이 숫자로 들어오는거
+
+account.php 414줄에 location 오류
+
+----해결 (DB에 location column이없어서 생긴오류)
+
+
+members.php
+
+name="price"로 받아와서
+value="0"일때, 쿼리안돌게
+
+---해결 (조건문)
+
+
+아이템 선택 안했을때
+insert.php로 나타나는 에러
+Notice: Undefined index: item in C:\Bitnami\wampstack-7.1.15-0\apache2\htdocs\web\ff1\insert.php on line 11
+---해결 (php.ini에서  error_reporting = E_ALL & ~E_DEPRECATED & ~E_NOTICE로 수정)
+
+굿네이버스만 
+insert.php에 
+'금액을 선택해주세요' 등등 오류  팝업 안뜸
+---해결 (action=insert.php가 없었음)
+
+아이템 선택만하고 닫았을 경우 다시 후원하기 누르면 그 아이템이 선택되어있음.
+---해결(document.getElementByID("").checked=false, .style.display="none")
+
+
