@@ -4,4 +4,4 @@ University Graduation Project 2018.03~2018.07
 
 Money Management system with blockchain
 
-code about blockchain, web program, Android App src
+code about blockchain, web program
